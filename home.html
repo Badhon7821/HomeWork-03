@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/192c27b2b5.js" crossorigin="anonymous"></script>
+    <title>Card-02</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600&family=Oswald:wght@200;400&family=Poppins:ital,wght@0,200;0,600;1,400&family=Roboto:wght@100;300;500&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Kantumruy Pro', sans-serif;
+            background-color: rgb(216, 239, 231);
+        }
+        .card_container{
+            width: 300px;
+            height: 470px;
+            outline: 2px solid #000;
+            padding: 20px;
+            margin: 80px auto;
+            border-radius: 6px;
+        }
+        .card_container:hover{
+            background-color: crimson;
+            outline: 2px solid crimson;
+            color: aliceblue;
+        }
+
+        .card_image{
+            margin-top: 20px;
+        }
+
+        .card_image .fab{
+            font-size: 90px;
+            /* margin: 0 auto; */
+            width: 100%;
+            display: block;
+            text-align: center;
+            
+        }
+        
+        .card_container_details{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .card_container_details h2{
+            text-transform: uppercase;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .card_container_details p{
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+        }
+        .card_container_details a{
+            text-decoration: none;
+            background-color: black;
+            
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 8px 65px;
+            display: inline-block;
+            margin-top: 25px;
+            color: #FFF;
+            border-radius: 20px;
+        }
+
+        .card_container:hover a{
+            background-color: #FFF;
+            color: #000;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="card_container">
+        <div class="card_image">
+            <div class="fab fa-twitter"></div>
+        </div>
+        
+            <!-- <img src="./img/icons8-twitter-100.png" alt=""> -->
+        
+        <div class="card_container_details">
+           <h2>twitter</h2>
+           <p>Twitter is a microblogging and social networking service on which users post and interact with messages known as "tweets", owned by American company!</p>
+           <a href="#">read more</a>
+        </div>
+    </div>
+
+
+    
+
+</body>
+</html>
